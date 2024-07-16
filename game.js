@@ -74,7 +74,7 @@ function updateObstacles() {
         obstacles.shift();
     }
 
-    if (tilesPassed >= 10 && !obstacles.some(ob => ob.type === 'finish')) {
+    if (tilesPassed >= 30 && !obstacles.some(ob => ob.type === 'finish')) {
         obstacles.push({
             x: canvas.width,
             y: 0,
@@ -84,7 +84,7 @@ function updateObstacles() {
         });
     }
 
-    if (Math.random() < 0.02 && tilesPassed < 10) {
+    if (Math.random() < 0.02 && tilesPassed < 29) {
         let type = Math.random() < 0.5 ? 1 : 2;
         obstacles.push({
             x: canvas.width,
