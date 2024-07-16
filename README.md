@@ -1,4 +1,6 @@
 # Hammy Racing 2024
 
+<p style="align-text=center;"><img src="https://github.com/SapporoAlex/Hammy-Racing-2024/blob/main/redCar1.png"></p>
+
 ## About
 This is a fun little time-waster/stress-reliever game made in JavaScript. Steer your hamster to the finish line as fast as you can while dodging obstacles that will slow you down.
